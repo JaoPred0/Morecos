@@ -167,9 +167,9 @@ function ExampleCard({ example, index, onOpen }: { example: ExampleProject; inde
         </span>
       </div>
 
-      <div className="p-5">
-        <h3 className="text-lg font-semibold text-zinc-950">{example.title}</h3>
-        <p className="mt-2 text-sm leading-6 text-zinc-600">{example.text}</p>
+      <div className="p-4 sm:p-5">
+        <h3 className="text-base font-semibold text-zinc-950 sm:text-lg">{example.title}</h3>
+        <p className="mt-2 hidden text-sm leading-6 text-zinc-600 sm:block">{example.text}</p>
       </div>
     </motion.article>
   )
